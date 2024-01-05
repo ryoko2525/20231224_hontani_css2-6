@@ -1,3 +1,7 @@
+.estra__top-site{
+    max-width: 1500px;
+    margin:auto;
+}
 /* header */
 .header{
     display: flex;
@@ -329,14 +333,27 @@ th{
 background-color: whitesmoke;
 padding-top: 30px;
 padding-bottom: 20px;
-margin-bottom: 20px;
+margin: 20px auto;
+
+
 }
     /*blog-section-title*/
 .blog-section-title{
     color:dimgray;
-    margin: 0 0 20px 110px;
-    padding-bottom: 10px;
-    }
+    padding-bottom: 20px;
+    margin-left:15%;
+
+}
+.blog-section-card:first-child {
+    margin-left:15%;
+
+}
+.blog-section-card:nth-child(2){
+    margin:auto;
+}
+.blog-section-card:last-child {
+    margin-right: 15%;
+}
 
 
 .blog-section-title p {
@@ -410,17 +427,13 @@ margin-bottom: 20px;
 
     /*blog-section-block*/
 .blog-section-block{
-    display:flex;
-    justify-content:space-evenly;
-
+    display: flex;
+    margin: auto;
+    
+        
 }
 
-.blog-section-card:first-child{
-    margin-left: 110px;
-}
-.blog-section-card:last-child {
-    margin-right:110px;
-}
+
     /*blog-section-btn*/
 
 .blog-section-btn{
